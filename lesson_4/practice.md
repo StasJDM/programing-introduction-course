@@ -60,7 +60,7 @@ export class CronService {
 Также в этой библиотеке есть набор готовых популярных Cron-паттернов, которые содержатся в перечислении `CronExpression` (в коде ниже такой декоратор добавлен к методу every30SecondsV2).
 Также можно добавлять периодические задачи через декоратор `@Interval()`. Для этого декоратору необходимо передать интервал в милисекундах (в коде ниже такой декоратор добавлен к методу every30SecondsV3)
 
-```
+```ts
 import { Injectable } from '@nestjs/common';
 import { Cron, CronExpression, Interval } from '@nestjs/schedule';
 
